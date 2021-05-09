@@ -62,3 +62,32 @@ List of Data Structures using Java
 **Applications**
 1. Suitable where memory is limited 
 2.  Suitable for applications that require frequent insertion and deletion
+
+### Stack
+1. Linear Data Structures using Java
+2. Follows LIFO: Last In First Out
+3. Only the top elements are available to be accessed
+4. Insertion and deletion takes place from the top
+5. Eg: a stack of plates, chairs, etc
+
+**4 major operations:**
+1. push(ele) – used to insert element at top
+2. pop() – removes the top element from stack
+3. isEmpty() – returns true is stack is empty
+4. peek() – to get the top element of the stack
+5. All operation works in constant time i.e, O(1)
+
+**Advantages**
+1. Maintains data in a LIFO manner
+2. The last element is readily available for use
+3. All operations are of O(1) complexity
+
+**Disadvantages**
+1. Manipulation is restricted to the top of the stack
+2. Not much flexible
+
+**Applications**
+1. Recursion
+2. Parsing
+3. Browser
+4. Editors
