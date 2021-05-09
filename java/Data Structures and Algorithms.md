@@ -20,10 +20,10 @@ List of Data Structures using Java
 **Syntax:**
 *Array declaration*
 ```java
-    datatype varname []=new datatype[size];  
-    datatype[] varname=new datatype[size];  
-    Can also do declaration and initialization at once
-    Datatype varname [] = {ele1, ele2, ele3, ele4};
+    datatype varname[] = new datatype[size];  
+    datatype[] varname = new datatype[size];  
+    // Can also do declaration and initialization at once
+    Datatype[] varname = {ele1, ele2, ele3, ele4};
 ```
 **Advantages**
 
@@ -40,26 +40,25 @@ List of Data Structures using Java
 1. For storing information in a linear fashion
 2. Suitable for applications that require frequent searching
 
-**Demonstration of Array**
-```java
-    import java.util.*;
-    
-    class JavaDemo {
-    	public static void main (String[] args) {
-    	    int[] priceOfPen= new int[5];
-    	    Scanner in=new Scanner(System.in);
-    	    for(int i=0;i<priceOfPen.length;i++)
-    	        priceOfPen[i]=in.nextInt();
-    
-    	    for(int i=0;i<priceOfPen.length;i++)
-    		    System.out.print(priceOfPen[i]+" ");
-    	}
-    }
+### Linked List
+1. Linear Data Structure
+2. Elements can be stored as per memory availability
+3. Can access elements on linear fashion only
+4. Stores homogeneous elements i.e, similar elements
+5. Dynamic in size
+6. Easy insertion and deletion 
+7. Starting element or Node is the key which is generally termed as head.
 
-    Input:
-    23 13 56 78 10
-    
-    Output:
-    23 13 56 78 10 
-   ```
+**Advantages**
+1. Dynamic in size
+2. No wastage as capacity and size is always equal
+3. Easy insertion and deletion as 1 link manipulation is required
+4. Efficient memory allocation
 
+**Disadvantages**
+1. If head Node is lost, the linked list is lost
+2. No random access possible
+
+**Applications**
+1. Suitable where memory is limited 
+2.  Suitable for applications that require frequent insertion and deletion
