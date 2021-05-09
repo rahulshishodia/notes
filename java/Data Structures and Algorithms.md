@@ -1,7 +1,7 @@
 ## Data Structures & Algorithm using Java
 List of Data Structures using Java
 
- 1. [Array](https://github.com/rahulshishodia/notes/new/main#arrays)
+ 1. [Array](https://github.com/rahulshishodia/notes/blob/main/java/Data%20Structures%20and%20Algorithms.md#arrays)
  2. Linked List
  3. Stack
  4. Queue
