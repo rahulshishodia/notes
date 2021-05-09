@@ -1,7 +1,7 @@
 ## Data Structures & Algorithm using Java
 List of Data Structures using Java
 
- 1. [Array](https://github.com/rahulshishodia/notes/blob/main/java/Data%20Structures%20and%20Algorithms.md#arrays)
+ 1. [Array](#arrays)
  2. Linked List
  3. Stack
  4. Queue
@@ -40,7 +40,7 @@ List of Data Structures using Java
 1. For storing information in a linear fashion
 2. Suitable for applications that require frequent searching
 
-### Linked List
+### [Linked List](#linked-list)
 1. Linear Data Structure
 2. Elements can be stored as per memory availability
 3. Can access elements on linear fashion only
