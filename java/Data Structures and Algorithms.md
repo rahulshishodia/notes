@@ -19,12 +19,12 @@ List of Data Structures using Java
 
 **Syntax:**
 *Array declaration*
-
+```java
     datatype varname []=new datatype[size];  
     datatype[] varname=new datatype[size];  
     Can also do declaration and initialization at once
     Datatype varname [] = {ele1, ele2, ele3, ele4};
-
+```
 **Advantages**
 
  1. Random access Easy sorting and iteration 
